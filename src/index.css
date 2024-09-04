@@ -8,6 +8,29 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
 }
+.header{
+    border:1px solid hsl(0, 0%, 80%);
+    max-height: 250px;
+    width: 100%;
+    padding: 20px 30px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.header-ul{
+    display: flex;
+    text-decoration: none;
+    gap: 50px;
+    /* justify-content: space-between; */
+}
+.header-li{
+    list-style: none;
+}
+.header-li a{
+    text-decoration: none;
+    color: hsl(0, 0%, 20%) ;
+}
 .parentAbout{
     border: 1px solid hsl(0, 0%, 80%);
     min-height: 350px;
@@ -18,7 +41,6 @@ body {
     padding-top: 20px;
     color: hsl(0, 0%, 20%);
     text-align: center;
-    /* margin-top: 10px; */
 }
 .display{
     display: flex;
@@ -31,7 +53,6 @@ body {
   height: 400px;
   min-width: 40%;
   border-radius: 10px;
-  /* margin-bottom: 10px; */
 }
 .bolder{
     margin-top: 20px;
@@ -50,18 +71,14 @@ body {
 }
 .serviceBox{
     border:1px solid hsl(0, 0%, 80%);
-    /* justify-content: center; */
     min-height: 250px;
     width: 100%;
-    /* display: flex;
-    justify-content: space-between; */
 }
 .service{
     font-size: 3vw;
     padding-top: 20px;
     color: hsl(0, 0%, 20%);
     text-align: center;
-    /* margin-top: 10px; */
 }
 .ul-li{
     display: flex;
@@ -69,7 +86,6 @@ body {
     align-items: center;
     text-align: center;
     padding-top: 30px;
-    /* text-decoration: none; */
 }
 .listitem{
     list-style: none;
@@ -80,21 +96,17 @@ body {
 .listitem1{
     list-style: none;
     color: hsl(0, 0%, 20%);
-    /* padding: 0px 50px; */
     font-size: 1.8vw;
-    /* padding-right: 120px; */
 }
 .listitem2{
     list-style: none;
     color: hsl(0, 0%, 20%);
-    /* padding: 0px 50px; */
     font-size: 1.8vw;
     padding-right: 20px;
 }
 .listitem3{
     list-style: none;
     color: hsl(0, 0%, 20%);
-    /* padding: 0px 50px; */
     font-size: 1.8vw;
     padding-right: 80px;
 }
@@ -108,45 +120,31 @@ body {
     border-radius: 10px;
     box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
     padding: 10px;
-    /* padding-left: 80px; */
-    /* gap: 120px; */
     text-align: center;
     width: 250px;
     height: 300px;
-    /* max-height: 400px; */
     margin: 20px;
   display: inline-block;
-  /* justify-content: space-between; */
-  /* transition: ease-in-out;
-  transform: translate(2); */
   cursor: pointer;
 }
 .card:hover{
     transform: translateY(-20px);
-    /* transform: translateX(20px); */
-    /* background: #000; */
     transition: ease-in-out;
     transition-duration: .5s;
-    /* transition: ease-in-out; */
 }
 .card .mypic{
     height: 165px;
     width: 170px;
-    /* max-width: 100%; */
     border-radius: 50%;
     border: 150px sollid black;
-    /* margin: 20px; */
     margin-bottom: 10px;
 }
 .card .heading{
     color: hsl(0, 0%, 20%);
     margin-bottom: 10px;
-    /* color: hsl(0, 0%, 30%); */
-    /* padding: 4px; */
 }
 .card .para{
     color: #5d5d5d;
-    /* padding: 4px; */
 }
 .footer{
     max-height: 100px;
