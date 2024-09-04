@@ -4,7 +4,7 @@ function Header() {
     return(
         <>
         <header className="header">
-            <h1>My React App</h1>
+            <h1>React-firstproject</h1>
             <nav>
                 <ul className="header-ul">
                     <li className="header-li"><a href="#home">Home</a></li>
