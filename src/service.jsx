@@ -1,7 +1,7 @@
 import profilePic from './assets/service.png'
 import youtubePic from './assets/youtube.jpg'
 import githubPic from './assets/github.png'
-import instagramPic from './assets/instagram.png'
+import instagramPic from './assets/instagram2.png'
 
 function Service() {
 

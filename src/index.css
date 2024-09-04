@@ -26,6 +26,8 @@ body {
     padding: 10px;
 }
 .display-left{
+    margin-top: 20px;
+    margin-bottom: 20px;
   height: 400px;
   min-width: 40%;
   border-radius: 10px;
@@ -145,4 +147,10 @@ body {
 .card .para{
     color: #5d5d5d;
     /* padding: 4px; */
+}
+.footer{
+    max-height: 100px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
 }
