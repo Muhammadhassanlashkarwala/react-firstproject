@@ -1,13 +1,13 @@
 import profilePic from './assets/service.png'
 import youtubePic from './assets/youtube.jpg'
 import githubPic from './assets/github.png'
-import instagramPic from './assets/instagram2.png'
+import instagramPic from './assets/instagram.png'
 
 function Service() {
 
     const Service1 = 'PhysicalTeacher'
     const Service2 = 'YoutubeStudy'
-    const Service3 = 'InstgramIdeas'
+    const Service3 = 'InstagramIdeas'
     const Service4 = 'CodeGithub'
 
     return(
